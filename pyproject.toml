@@ -1,0 +1,69 @@
+[project]
+name = "patent-retrieval"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Valentin Knappich", email = "valentin.knappich@de.bosch.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "lxml>=4.9.0",
+    "pyrootutils>=1.0.4",
+    "pandas>=2.3.1",
+    "tqdm>=4.67.1",
+    "hydralette>=0.2.4",
+    "rich>=14.1.0",
+    "mpire>=2.10.2",
+    "lxml-stubs>=0.5.1",
+    "sqlmodel>=0.0.24",
+    "ranx>=0.3.21",
+    "numpy<=2.2",
+    "ipykernel>=7.0.1",
+    "plotly>=6.3.1",
+    "nbformat>=5.10.4",
+    "openai>=2.6.0",
+    "sentence-transformers>=5.1.1",
+    "transformers>=4.55.2",
+    "huggingface-hub>=0.34.4",
+    "jupyter>=1.1.1",
+    "txtai>=9.0.1",
+    "langchain>=1.0.2",
+    "faiss-cpu>=1.12.0",
+    "langchain-huggingface>=1.0.0",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.1",
+    "qdrant-client>=1.15.1",
+    "langchain-qdrant>=1.1.0",
+    "wandb>=0.22.3",
+    "langchain-openai>=1.0.1",
+    "colbert>=0.40",
+    "colbert-ai>=0.2.22",
+    "einops>=0.8.1",
+    "cohere>=5.20.0",
+    "simplejson>=3.20.2",
+    "streamlit>=1.52.1",
+    "gradio>=6.1.0",
+    "patent-client>=5.0.19",
+    "optuna>=4.6.0",
+    "unsloth-zoo>=2025.12.3",
+    "json-repair>=0.55.0",
+    "azure-identity>=1.25.1",
+    "unsloth>=2026.1.4",
+    "asyncer>=0.0.17",
+    "igraph>=0.11.9",
+    "leidenalg>=0.10.2",
+    "sentencepiece>=0.2.1",
+    "torch>=2.10.0",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[dependency-groups]
+dev = [
+    "debugpy>=1.8.15",
+]
